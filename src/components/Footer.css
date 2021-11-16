@@ -1,0 +1,16 @@
+.footer{
+    padding: 40px;
+    margin-top: 10px;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.linkPerfil{
+    color: #4949d6;
+    font-weight: 800;
+}

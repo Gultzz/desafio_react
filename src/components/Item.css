@@ -1,0 +1,12 @@
+.itens {
+  cursor: pointer;
+  margin: 25px 30px;
+}
+.img {
+  width: 140px;
+  height: 215px;
+  border-radius: 5px;
+}
+.title {
+  max-width: 150px;
+}
