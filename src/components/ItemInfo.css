@@ -1,0 +1,212 @@
+.center2 {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #11111155;
+  justify-content: center;
+  align-items: center;
+}
+.infos {
+  margin: 0 10px;
+  position: relative;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  max-width: 800px;
+  max-height: 500px;
+}
+.divImage {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.divInfos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+.infoImg {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.divInfoTitleFavority {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.infosTitle {
+  overflow: hidden;
+  max-width: 400px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 25px;
+  color: #000;
+}
+.buttonHeart {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.heartInfo {
+  width: 30px;
+  height: auto;
+}
+.divInfoPositionRate {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: row;
+}
+.infoPosition {
+  color: #000;
+}
+.infoPositionSpan {
+  margin-left: 5px;
+  color: #000;
+}
+.infoRate {
+  color: #000;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.starInfo {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+}
+.RateValue {
+  margin-left: 5px;
+  color: #000;
+}
+.infoCapitulosEps {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.capEps {
+  color: #000;
+}
+.capEpsSpan {
+  margin-left: 5px;
+  color: #000;
+}
+.infoSinopse {
+  margin-top: 20px;
+}
+.titleSinopse {
+  font-size: 20px;
+  color: #000;
+}
+.sinopse {
+  max-height: 100%;
+  max-width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 20px;
+  margin-top: 10px;
+  color: #000;
+}
+@media (max-width: 700px) {
+  .infos {
+    padding: 15px;
+  }
+  .infoImg {
+    width: 170px;
+  }
+  .divImage {
+    margin-right: 10px;
+  }
+  .infosTitle {
+    max-width: 280px;
+    font-size: 18px;
+  }
+  .heartInfo {
+    width: 24px;
+  }
+  .divInfoPositionRate {
+    margin-top: 10px;
+  }
+  .infoRate {
+    margin-left: 20px;
+  }
+  .starInfo {
+    width: 15px;
+    height: 15px;
+  }
+  .infoCapitulosEps {
+    margin-top: 10px;
+  }
+  .infoSinopse {
+    margin-top: 10px;
+  }
+  .titleSinopse {
+    font-size: 18px;
+  }
+  .sinopse {
+    font-size: 15px;
+    font-weight: 500;
+    -webkit-line-clamp: 5;
+    line-height: 18px;
+  }
+}
+@media (max-width: 500px) {
+  .infoImg {
+    width: 110px;
+  }
+  .divImage {
+    margin-right: 8px;
+  }
+  .infosTitle {
+    max-width: 180px;
+    font-size: 15px;
+  }
+  .heartInfo {
+    width: 18px;
+  }
+  .divInfoPositionRate {
+    margin-top: 4px;
+  }
+  .infoPosition {
+    font-size: 12px;
+  }
+  .infoRate {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .starInfo {
+    width: 14px;
+    height: 14px;
+  }
+  .infoCapitulosEps {
+    margin-top: 6px;
+  }
+  .capEps {
+    font-size: 12px;
+  }
+  .infoSinopse {
+    margin-top: 6px;
+  }
+  .titleSinopse {
+    font-size: 13px;
+  }
+  .sinopse {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    -webkit-line-clamp: 4;
+    line-height: 15px;
+  }
+}
