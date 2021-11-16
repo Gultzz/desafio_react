@@ -1,6 +1,6 @@
 # Desafio ReactJS
 
-Projeto criado por [Gustavo Schultz](https://gultzz.github.io).
+Clique [aqui](https://gultzz.github.io/desafio_react/build/) para abrir o site direto.
 
 ## Iniciar projeto
 
@@ -9,3 +9,5 @@ Para iniciar o projeto é necessario abrir um terminal na pasta do projeto e usa
 ## Especificações do projeto
 
 Eu usei somente React neste projeto, o projeto foi no intuito de fazer uma listagem de animes usando a API [Kitsu](https://kitsu.docs.apiary.io/), demorei cerca de 7 dias para terminar, e também ajudou muito no meu aprendizado de ReactJS.
+
+Projeto criado por [Gustavo Schultz](https://gultzz.github.io).
